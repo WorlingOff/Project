@@ -1,0 +1,339 @@
+   /*Style de la page*/
+   
+   @media all and (min-width: 768px) and (max-width: 979px){
+
+   		 body{
+				        	margin: 0;
+				        	padding: 0;
+				        	background: url("assets/images/im2.jpg") no-repeat center fixed;
+				        	-webkit-background-size: cover; /* permet de voir le même fond d'écran même quand on zoom*/
+				 			 background-size: cover; /* permet de voir le même fond d'écran même quand on zoom */
+				 			 color: #015291;
+				 			 position: relative;
+				        	
+							}
+							/*Conteneur du formulaire*/
+							.content_formulaire{
+								width:555px;
+								background-color: #eee;
+								margin: 165px 70px auto auto;
+								opacity:0.7;
+								
+								
+								}
+							.content_description{
+								/*width: 250px;*/
+								float: left;
+								/*margin: 150px 80px auto auto;*/
+								color: #eee;
+								font-size: 5px;
+								
+							}
+								/*style du titre du formulaire d'inscription*/
+								.titre_formulaire{
+									background-color: white;
+									height: 35px;
+									text-align: center; /*centrage horizontal du titre*/
+									line-height: 35px; /*centrage vertical du titre*/
+								}
+								/*contenu du formualire*/
+								.formulaire_a_remplir{
+									/*border-right: 1px solid white;*/
+									/*display: inline-block;*/
+									margin:10px;
+									padding: 10px;
+								}
+								/*le logo dans le header*/
+								
+								.logo_header{
+									float: left;
+									border-radius: 100%;
+								}
+
+
+								#header{
+									background-color: #eee;
+									height:80px;
+									margin: 0;
+									padding: 10px;
+									opacity:0.7;
+								}
+								#header > form{
+									float: right;
+								}
+								/*Le formualire de Connexion*/
+								.form_connexion{
+									height:60px;
+								}
+								.form_connexion tr td{
+									padding-right: 5px;
+								}
+
+
+								.footer table{
+									margin: 0 auto;
+								}
+								.footer tr td {
+									padding-right: 100px;
+									padding-top: 15px;
+								}
+										.button-secondary {
+            				color: white;
+            				border-radius: 4px;
+            				text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+            				background: #015291; 
+        								}
+        				.button-secondary:hover {
+            				color: white;
+            				border-radius: 4px;
+            				text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+            				background: #015291; 
+            				opacity: 0.8;
+        								}
+
+        				 .button-xsmall {
+				            font-size: 70%;
+				        }
+
+				        .button-small {
+				            font-size: 85%;
+				        }
+
+				        .button-large {
+				            font-size: 110%;
+				        }
+
+				        .button-xlarge {
+				            font-size: 125%;
+				        }
+				        .lien_utile{
+				        	margin: auto 80px auto auto;
+				        }
+
+				         .lien_utile td{
+				        	padding: 20px;
+				        	
+				        }
+				         .lien_utile  td  a {
+				        	color:#eee;
+				        	text-decoration: none;
+				        }
+
+				        a{
+				        	text-decoration: none;
+				        	
+
+				        }
+				        a:hover{
+									text-decoration: underline;
+								}
+   }
+   @media all and (min-width: 980px) and (max-width: 1199px){
+   	 body{
+				        	margin: 0;
+				        	padding: 0;
+				        	background: url("assets/images/im2.jpg") no-repeat center fixed;
+				        	-webkit-background-size: cover; /* permet de voir le même fond d'écran même quand on zoom*/
+				 			 background-size: cover; /* permet de voir le même fond d'écran même quand on zoom */
+				 			 color: #015291;
+				 			 position: relative;
+				        	
+							}
+							/*Conteneur du formulaire*/
+							.content_formulaire{
+								width:555px;
+								background-color: #eee;
+								margin: 160px 80px auto auto;
+								opacity:0.7;
+								
+								
+								}
+							.content_description{
+								width: 250px;
+								float: left;
+								margin: 150px 80px auto auto;
+								color: #eee;
+								font-size: 8px;
+								
+							}
+								/*style du titre du formulaire d'inscription*/
+								.titre_formulaire{
+									background-color: white;
+									height: 35px;
+									text-align: center; /*centrage horizontal du titre*/
+									line-height: 35px; /*centrage vertical du titre*/
+								}
+								/*contenu du formualire*/
+								.formulaire_a_remplir{
+									/*border-right: 1px solid white;*/
+									/*display: inline-block;*/
+									margin:10px;
+									padding: 10px;
+								}
+								/*le logo dans le header*/
+								
+								.logo_header{
+									float: left;
+									border-radius: 100%;
+								}
+
+
+								#header{
+									background-color: #eee;
+									height:80px;
+									margin: 0;
+									padding: 10px;
+									opacity:0.7;
+								}
+								#header > form{
+									float: right;
+								}
+								/*Le formualire de Connexion*/
+								.form_connexion{
+									height:60px;
+								}
+								.form_connexion tr td{
+									padding-right: 5px;
+								}
+
+
+								.footer table{
+									margin: 0 auto;
+								}
+								.footer tr td {
+									padding-right: 100px;
+									padding-top: 15px;
+								}
+										.button-secondary {
+            				color: white;
+            				border-radius: 4px;
+            				text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+            				background: #015291; 
+        								}
+        				.button-secondary:hover {
+            				color: white;
+            				border-radius: 4px;
+            				text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+            				background: #015291; 
+            				opacity: 0.8;
+        								}
+
+        				 .button-xsmall {
+				            font-size: 70%;
+				        }
+
+				        .button-small {
+				            font-size: 85%;
+				        }
+
+				        .button-large {
+				            font-size: 110%;
+				        }
+
+				        .button-xlarge {
+				            font-size: 125%;
+				        }
+				        .lien_utile{
+				        	margin: auto 80px auto auto;
+				        }
+
+				         .lien_utile td{
+				        	padding: 20px;
+				        	
+				        }
+				         .lien_utile  td  a {
+				        	color:#eee;
+				        	text-decoration: none;
+				        }
+
+				        a{
+				        	text-decoration: none;
+				        	
+
+				        }
+				        a:hover{
+									text-decoration: underline;
+								}
+
+   }
+   @media all and (min-width: 1200px) {
+
+   				       	 body{
+				        	margin: 0;
+				        	padding: 0;
+				        	background: url("assets/images/im2.jpg") no-repeat center fixed;
+				        	-webkit-background-size: cover; /* permet de voir le même fond d'écran même quand on zoom*/
+				 			 background-size: cover; /* permet de voir le même fond d'écran même quand on zoom */
+				 			 color: #015291;
+				 			 position: relative;
+				        	
+							}
+							/*Conteneur du formulaire*/
+							.content_formulaire{
+								width:555px;
+								background-color: #eee;
+								margin: -200px 80px auto auto;
+								opacity:0.7;
+								
+								
+								}
+							.content_description{
+								width: 555px;
+								/*float: left;*/
+								margin: 160px 80px auto;
+								color: #eee;
+								font-size: 20px;
+								
+							}
+								/*style du titre du formulaire d'inscription*/
+								.titre_formulaire{
+									background-color: white;
+									height: 35px;
+									text-align: center; /*centrage horizontal du titre*/
+									line-height: 35px; /*centrage vertical du titre*/
+								}
+								/*contenu du formualire*/
+								.formulaire_a_remplir{
+									/*border-right: 1px solid white;*/
+									/*display: inline-block;*/
+									margin:10px;
+									padding: 10px;
+								}
+								/*le logo dans le header*/
+								
+								.logo_header{
+									float: left;
+									border-radius: 100%;
+								}
+
+
+								#header{
+									background-color: #eee;
+									height:80px;
+									margin: 0;
+									padding: 10px;
+									opacity:0.7;
+								}
+								#header > form{
+									float: right;
+								}
+								/*Le formualire de Connexion*/
+								.form_connexion{
+									height:60px;
+								}
+								.form_connexion tr td{
+									padding-right: 5px;
+								}
+
+
+								.footer table{
+									margin: 0 auto;
+								}
+								.footer tr td {
+									padding-right: 100px;
+									padding-top: 15px;
+								}
+
+
+   }
+	
